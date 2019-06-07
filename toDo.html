@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ta-Da!</title>
+    <style>
+    body {
+      background-color: aquamarine;
+      text-align: center;
+        }
+    .bullets {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .left > form {
+      display: inline block;
+    }
+        </style>
+  </head>
+  <body>
+    <div class="container">
+    <h1> Welcome Back!</h1>
+    <div class="bullets">
+      <div class="left">
+          <form>
+        <h3>Today's Top Three:</h3>
+        1. <input type="text" name="1"></input><br>
+        2. <input type="text" name="2"></input><br>
+        3. <input type="text" name="3"></input><br>
+        <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="right">
+        <h3>Daily Tasks:</h3>
+        <form>
+        <input type="text"></input><br>
+        <input type="submit" value="Add daily task">
+        </form>
+      </div>
+    </div>
+    </div>
+    <script src="options.js"></script>
+  </body>
+</html>

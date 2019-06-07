@@ -4,6 +4,7 @@
   "description": "Support for finding you first dev job.",
   "permissions": [
     "activeTab",
+    "tabs",
     "declarativeContent",
     "http://*/*",
     "https://*/*",
@@ -23,6 +24,9 @@
       "48": "images/get_started48.png",
       "128": "images/get_started128.png"
     }
+  },
+  "chrome_url_overrides": {
+    "newtab": "toDo.html"
   },
   "icons": {
     "16": "images/get_started16.png",
