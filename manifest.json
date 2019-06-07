@@ -2,7 +2,15 @@
   "name": "SupportiveToDo",
   "version": "1.0",
   "description": "Support for finding you first dev job.",
-  "permissions": ["declarativeContent", "storage"],
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "http://*/*",
+    "https://*/*",
+    "<all_urls>",
+    "storage"
+  ],
+  "options_page": "options.html",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
